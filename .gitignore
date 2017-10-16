@@ -691,3 +691,6 @@ appengine-generated/
 *.msi
 *.msm
 *.msp
+
+# Andy
+.idea
