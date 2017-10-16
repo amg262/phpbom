@@ -693,4 +693,5 @@ appengine-generated/
 *.msp
 
 # Andy
-.idea
+*.idea
+composer.lock
