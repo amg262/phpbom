@@ -8,8 +8,8 @@
     "start": "npm update && npm install && composer update && composer install",
     "build": "gulp build",
     "clean": "gulp clean",
-    "watch": "gulp serve",
-    "postinstall": "gulp clean"
+    "watch": "gulp serve"
+    //"postinstall": "gulp clean"
   },
   "repository": {
     "type": "git",
