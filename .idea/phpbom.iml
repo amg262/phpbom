@@ -96,12 +96,10 @@
         <CLASSES>
           <root url="file://$USER_HOME$/node_modules" />
           <root url="file:///usr/bin" />
-          <root url="jar://$APPLICATION_HOME_DIR$/plugins/phpspec/lib/phpspec.jar!/phpspec_stub" />
         </CLASSES>
         <SOURCES>
           <root url="file://$USER_HOME$/node_modules" />
           <root url="file:///usr/bin" />
-          <root url="jar://$APPLICATION_HOME_DIR$/plugins/phpspec/lib/phpspec.jar!/phpspec_stub" />
         </SOURCES>
       </library>
     </orderEntry>
@@ -115,5 +113,6 @@
         </SOURCES>
       </library>
     </orderEntry>
+    <orderEntry type="module" module-name="sandbox" />
   </component>
 </module>
