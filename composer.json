@@ -1,0 +1,26 @@
+{
+  "name": "andy/phpbom",
+  "type": "project",
+  "require-dev": {
+  },
+  "license": "GPLv3",
+  "authors": [
+    {
+      "name": "Andrew Gunn",
+      "email": "andrewmgunn26@gmail.com"
+    }
+  ],
+  "minimum-stability": "dev",
+  "require": {
+    "squizlabs/php_codesniffer": "^2.8",
+    "phpmd/phpmd": "dev-master",
+    "phing/phing": "^3.0@dev",
+    "phpunit/phpunit": "^6.1@dev",
+    "behat/behat": "^3.2@dev",
+    "phpspec/phpspec": "^3.0@dev",
+    "roave/security-advisories": "dev-master",
+    "laravel/laravel": "^5.5",
+    "laravel/installer": "^1.4"
+  },
+  "prefer-stable": true
+}
