@@ -12,13 +12,17 @@
   ],
   "minimum-stability": "dev",
   "require": {
-    "squizlabs/php_codesniffer": "^2.8",
-    "phpmd/phpmd": "dev-master",
-    "phing/phing": "^3.0@dev",
     "phpunit/phpunit": "^6.1@dev",
+<<<<<<< HEAD
     "behat/behat": "^3.2@dev",
     "phpspec/phpspec": "^3.0@dev",
     "roave/security-advisories": "dev-master"
+=======
+    "phpspec/phpspec": "^4.0",
+    "roave/security-advisories": "dev-master",
+    "laravel/laravel": "^5.5",
+    "laravel/installer": "^1.4"
+>>>>>>> 02360be10a65cd57fd7f061ec255e9fc3c14984f
   },
   "prefer-stable": true
 }

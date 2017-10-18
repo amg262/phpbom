@@ -21,13 +21,13 @@ var paths = {
     lib_js: "assets/lib/scripts/",
     lib_css: "assets/lib/styles/",
     lib_img: "assets/lib/images/*",
-    dist: "assets/dist/",
+    dist: "dist/",
     logs: "logs/",
     data: "assets/data/",
     archive: "assets/archive/",
-    dist_js: "assets/dist/scripts/",
-    dist_css: "assets/dist/styles/",
-    dist_img: "assets/dist/images/",
+    dist_js: "dist/scripts/",
+    dist_css: "dist/styles/",
+    dist_img: "dist/images/",
     includes: "includes/",
     classes: "classes/"
 };
