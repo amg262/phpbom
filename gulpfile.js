@@ -17,10 +17,17 @@ const mkdirp = require('mkdirp');
 
 var paths = {
     assets: "assets/",
+<<<<<<< HEAD
     home: "wc-bom.php",
     lib_js: "assets/lib/scripts/",
     lib_css: "assets/lib/styles/",
     lib_img: "assets/lib/images/*",
+=======
+    home: "phpbom.php",
+    lib_js: "assets/scripts/",
+    lib_css: "assets/styles/",
+    lib_img: "assets/images/*",
+>>>>>>> 99be53ab2504e9a790dbdefefc51c5e3ff943cad
     dist: "dist/",
     logs: "logs/",
     data: "assets/data/",
@@ -113,7 +120,7 @@ gulp.task("watch", function () {
     gulp.watch(paths.includes).on("add", browserSync.reload);
 });
 
-gulp.task("default", ["purge", "imagemin", "cssnano", "uglify", "serve", "watch"]);
-gulp.task("clean", ["purge", "imagemin", "cssnano", "uglify", "zip"]);
+gulp.task("up", ["purge", "imagemin", "cssnano", "uglify", "serve", "watch"]);
+gulp.task("default", ["purge", "imagemin", "cssnano", "uglify", "zip"]);
 gulp.task("live", ["serve", "watch"]);
 

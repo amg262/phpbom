@@ -12,10 +12,14 @@
   ],
   "minimum-stability": "dev",
   "require": {
+<<<<<<< HEAD
+=======
+    "phing/phing": "^3.0@dev",
+>>>>>>> 99be53ab2504e9a790dbdefefc51c5e3ff943cad
     "phpunit/phpunit": "^6.1@dev",
 <<<<<<< HEAD
     "behat/behat": "^3.2@dev",
-    "phpspec/phpspec": "^3.0@dev",
+    "phpspec/phpspec": "^4.1",
     "roave/security-advisories": "dev-master"
 =======
     "phpspec/phpspec": "^4.0",

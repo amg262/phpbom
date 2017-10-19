@@ -1,7 +1,10 @@
 /node_modules
+<<<<<<< HEAD
 /public/hot
 /public/storage
 /storage/*.key
+=======
+>>>>>>> 99be53ab2504e9a790dbdefefc51c5e3ff943cad
 /vendor
 /.idea
 /.vagrant
@@ -10,3 +13,7 @@ Homestead.yaml
 npm-debug.log
 yarn-error.log
 .env
+<<<<<<< HEAD
+=======
+composer.lock
+>>>>>>> 99be53ab2504e9a790dbdefefc51c5e3ff943cad
