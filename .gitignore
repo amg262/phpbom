@@ -11,7 +11,7 @@ composer.lock
 /.gitattri
 ### CakePHP template
 # CakePHP 3
-
+/.idea/
 /vendor/*
 /config/app.php
 
@@ -576,3 +576,4 @@ storage/*.key
 
 # Embedded web-server pid file
 /.web-server-pid
+/node_modules/

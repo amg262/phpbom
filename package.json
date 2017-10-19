@@ -29,6 +29,10 @@
   },
   "homepage": "https://amg262@bitbucket.org/amg262/wc-bom.git",
   "dependencies": {
+
+  },
+  "devDependencies": {
+    "jquery": "^3.2.1",
     "bootstrap": "^3.3.7",
     "browser-sync": "^2.18.8",
     "chosenjs": "^1.4.3",
@@ -48,8 +52,5 @@
     "gulp-zip": "^4.0.0",
     "node-gyp": "^3.6.1",
     "sweetalert": "^2.0.8"
-  },
-  "devDependencies": {
-    "jquery": "^3.2.1"
   }
 }

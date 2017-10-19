@@ -12,13 +12,6 @@
   ],
   "minimum-stability": "dev",
   "require": {
-    "phpunit/phpunit": "^6.4",
-    "laravel/installer": "1.4.*",
-    "phpspec/phpspec": "^4.1",
-    "benconstable/phpspec-laravel": "^3.0",
-    "henrikbjorn/phpspec-code-coverage": "^3.0",
-    "barryvdh/laravel-ide-helper": "^2.4",
-    "phpdocumentor/phpdocumentor": "^2.9"
   },
   "prefer-stable": true
 }
