@@ -2,7 +2,7 @@
 <project version="4">
   <component name="Behat">
     <behat_settings>
-      <BehatSettings behat_path="$PROJECT_DIR$/vendor/behat/behat/bin/behat" />
+      <BehatSettings behat_path="/usr/local/Cellar/behat/3.3.0/libexec/behat.phar" />
     </behat_settings>
   </component>
   <component name="PhpIncludePathManager">
@@ -10,59 +10,91 @@
       <path value="$USER_HOME$/vendor" />
       <path value="$USER_HOME$/node_modules" />
       <path value="/usr/bin" />
-      <path value="$USER_HOME$/.config/composer" />
       <path value="$PROJECT_DIR$/../sandbox/app/phpbom" />
-      <path value="$PROJECT_DIR$/vendor/composer" />
-      <path value="$PROJECT_DIR$/vendor/myclabs/deep-copy" />
-      <path value="$PROJECT_DIR$/vendor/doctrine/instantiator" />
-      <path value="$PROJECT_DIR$/vendor/phar-io/version" />
-      <path value="$PROJECT_DIR$/vendor/phar-io/manifest" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-token-stream" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/code-unit-reverse-lookup" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/phpunit-mock-objects" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/diff" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/exporter" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/environment" />
-      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-docblock" />
-      <path value="$PROJECT_DIR$/vendor/phpdocumentor/reflection-common" />
-      <path value="$PROJECT_DIR$/vendor/phpspec/prophecy" />
-      <path value="$PROJECT_DIR$/vendor/phpdocumentor/type-resolver" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-file-iterator" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-code-coverage" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-timer" />
-      <path value="$PROJECT_DIR$/vendor/phpunit/php-text-template" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/object-enumerator" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/global-state" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/recursion-context" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/object-reflector" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/version" />
-      <path value="$PROJECT_DIR$/vendor/sebastian/resource-operations" />
-      <path value="$PROJECT_DIR$/vendor/webmozart/assert" />
-      <path value="$PROJECT_DIR$/vendor/theseer/tokenizer" />
-      <path value="$PROJECT_DIR$/vendor/symfony/console" />
-      <path value="$PROJECT_DIR$/vendor/psr/log" />
-      <path value="$PROJECT_DIR$/vendor/symfony/event-dispatcher" />
-      <path value="$PROJECT_DIR$/vendor/symfony/debug" />
-      <path value="$PROJECT_DIR$/vendor/symfony/polyfill-mbstring" />
-      <path value="$PROJECT_DIR$/vendor/symfony/finder" />
-      <path value="$PROJECT_DIR$/vendor/symfony/process" />
-      <path value="$PROJECT_DIR$/vendor/phpspec/php-diff" />
-      <path value="$PROJECT_DIR$/vendor/phpspec/phpspec" />
-      <path value="$PROJECT_DIR$/vendor/symfony/yaml" />
-      <path value="$PROJECT_DIR$/vendor/laravel/installer" />
-      <path value="$PROJECT_DIR$/vendor/symfony/filesystem" />
-      <path value="$PROJECT_DIR$/vendor/psr/http-message" />
-      <path value="$PROJECT_DIR$/vendor/guzzlehttp/guzzle" />
-      <path value="$PROJECT_DIR$/vendor/guzzlehttp/promises" />
-      <path value="$PROJECT_DIR$/vendor/guzzlehttp/psr7" />
+      <path value="$USER_HOME$/vendor" />
+      <path value="$USER_HOME$/node_modules" />
+      <path value="/usr/local/Cellar" />
+      <path value="/usr/local/etc" />
+      <path value="/usr/local/Homebrew" />
+      <path value="/usr/local/MacGPG2" />
+      <path value="/usr/local/bin" />
+      <path value="$USER_HOME$/vendor/doctrine/instantiator" />
+      <path value="$USER_HOME$/vendor/phar-io/version" />
+      <path value="$USER_HOME$/vendor/webmozart/assert" />
+      <path value="$USER_HOME$/vendor/composer" />
+      <path value="$USER_HOME$/vendor/phpdocumentor/reflection-docblock" />
+      <path value="$USER_HOME$/vendor/phpdocumentor/type-resolver" />
+      <path value="$USER_HOME$/vendor/phpdocumentor/reflection-common" />
+      <path value="$USER_HOME$/vendor/phpspec/php-diff" />
+      <path value="$USER_HOME$/vendor/phpspec/prophecy" />
+      <path value="$USER_HOME$/vendor/phpunit/php-file-iterator" />
+      <path value="$USER_HOME$/vendor/phpunit/php-timer" />
+      <path value="$USER_HOME$/vendor/phpunit/php-text-template" />
+      <path value="$USER_HOME$/vendor/sebastian/global-state" />
+      <path value="$USER_HOME$/vendor/behat/behat" />
+      <path value="$USER_HOME$/vendor/phpunit/php-token-stream" />
+      <path value="$USER_HOME$/vendor/sebastian/recursion-context" />
+      <path value="$USER_HOME$/vendor/phpunit/phpunit-mock-objects" />
+      <path value="$USER_HOME$/vendor/symfony/console" />
+      <path value="$USER_HOME$/vendor/sebastian/object-enumerator" />
+      <path value="$USER_HOME$/vendor/symfony/process" />
+      <path value="$USER_HOME$/vendor/sebastian/object-reflector" />
+      <path value="$USER_HOME$/vendor/phing/phing" />
+      <path value="$USER_HOME$/vendor/phpunit/php-code-coverage" />
+      <path value="$USER_HOME$/vendor/symfony/debug" />
+      <path value="$USER_HOME$/vendor/sebastian/diff" />
+      <path value="$USER_HOME$/vendor/symfony/filesystem" />
+      <path value="$USER_HOME$/vendor/sebastian/version" />
+      <path value="$USER_HOME$/vendor/symfony/finder" />
+      <path value="$USER_HOME$/vendor/sebastian/comparator" />
+      <path value="$USER_HOME$/vendor/symfony/event-dispatcher" />
+      <path value="$USER_HOME$/vendor/sebastian/environment" />
+      <path value="$USER_HOME$/vendor/squizlabs/php_codesniffer" />
+      <path value="$USER_HOME$/vendor/symfony/translation" />
+      <path value="$USER_HOME$/vendor/sebastian/exporter" />
+      <path value="$USER_HOME$/vendor/symfony/polyfill-mbstring" />
+      <path value="$USER_HOME$/vendor/sebastian/resource-operations" />
+      <path value="$USER_HOME$/vendor/phpmd/phpmd" />
+      <path value="$USER_HOME$/vendor/sebastian/code-unit-reverse-lookup" />
+      <path value="$USER_HOME$/vendor/symfony/class-loader" />
+      <path value="$USER_HOME$/vendor/symfony/config" />
+      <path value="$USER_HOME$/vendor/symfony/yaml" />
+      <path value="$USER_HOME$/vendor/pdepend/pdepend" />
+      <path value="$USER_HOME$/vendor/phpspec/phpspec" />
+      <path value="$USER_HOME$/vendor/psr/container" />
+      <path value="$USER_HOME$/vendor/myclabs/deep-copy" />
+      <path value="$USER_HOME$/vendor/psr/log" />
+      <path value="$USER_HOME$/vendor/symfony/dependency-injection" />
+      <path value="$USER_HOME$/vendor/theseer/tokenizer" />
+      <path value="$USER_HOME$/vendor/behat/transliterator" />
+      <path value="$USER_HOME$/vendor/behat/gherkin" />
+      <path value="$USER_HOME$/vendor/phar-io/manifest" />
+      <path value="$USER_HOME$/vendor/phpunit/phpunit" />
+      <path value="$USER_HOME$/vendor/container-interop/container-interop" />
+      <path value="$USER_HOME$/vendor/symfony/css-selector" />
+      <path value="$USER_HOME$/vendor/behat/mink" />
+      <path value="$USER_HOME$/vendor/rap2hpoutre/laravel-log-viewer" />
+      <path value="$USER_HOME$/vendor/league/fractal" />
+      <path value="$USER_HOME$/vendor/qiniu/php-sdk" />
+      <path value="$USER_HOME$/vendor/psr/simple-cache" />
+      <path value="$USER_HOME$/vendor/doctrine/inflector" />
+      <path value="$USER_HOME$/vendor/aliyuncs/oss-sdk-php" />
+      <path value="$USER_HOME$/vendor/owen-it/laravel-auditing" />
+      <path value="$USER_HOME$/vendor/ikodota/yeoman" />
+      <path value="$USER_HOME$/vendor/ikodota/upload" />
+      <path value="$USER_HOME$/vendor/nesbot/carbon" />
+      <path value="$USER_HOME$/vendor/illuminate/filesystem" />
+      <path value="$USER_HOME$/vendor/illuminate/support" />
+      <path value="$USER_HOME$/vendor/illuminate/contracts" />
+      <path value="$USER_HOME$/vendor/illuminate/database" />
+      <path value="$USER_HOME$/vendor/illuminate/console" />
+      <path value="$USER_HOME$/vendor/illuminate/container" />
     </include_path>
   </component>
   <component name="PhpProjectSharedConfiguration" php_language_level="7.2" />
   <component name="PhpUnit">
     <phpunit_settings>
-      <PhpUnitSettings load_method="CUSTOM_LOADER" custom_loader_path="$PROJECT_DIR$/vendor/autoload.php" />
+      <PhpUnitSettings load_method="CUSTOM_LOADER" custom_loader_path="$USER_HOME$/vendor/autoload.php" phpunit_phar_path="" />
     </phpunit_settings>
   </component>
 </project>

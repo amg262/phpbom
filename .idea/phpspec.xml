@@ -2,7 +2,7 @@
 <project version="4">
   <component name="PHPSpec">
     <settings>
-      <PhpTestFrameworkSettings executable_path="$PROJECT_DIR$/vendor/phpspec/phpspec/bin/phpspec" />
+      <PhpTestFrameworkSettings executable_path="/usr/local/Cellar/phpspec/3.2.3/libexec/phpspec.phar" />
     </settings>
   </component>
 </project>
