@@ -12,11 +12,13 @@
   ],
   "minimum-stability": "dev",
   "require": {
-    "phing/phing": "^3.0@dev",
-    "phpunit/phpunit": "^6.1@dev",
-    "behat/behat": "^3.2@dev",
+    "phpunit/phpunit": "^6.4",
+    "laravel/installer": "1.4.*",
     "phpspec/phpspec": "^4.1",
-    "roave/security-advisories": "dev-master"
+    "benconstable/phpspec-laravel": "^3.0",
+    "henrikbjorn/phpspec-code-coverage": "^3.0",
+    "barryvdh/laravel-ide-helper": "^2.4",
+    "phpdocumentor/phpdocumentor": "^2.9"
   },
   "prefer-stable": true
 }

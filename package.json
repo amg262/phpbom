@@ -31,6 +31,7 @@
   "dependencies": {
     "bootstrap": "^3.3.7",
     "browser-sync": "^2.18.8",
+    "chosenjs": "^1.4.3",
     "del": "^2.2.2",
     "gulp": "^3.9.1",
     "gulp-clean": "^0.3.2",
@@ -45,7 +46,8 @@
     "gulp-util": "^3.0.8",
     "gulp-watch": "^4.3.11",
     "gulp-zip": "^4.0.0",
-    "node-gyp": "^3.6.1"
+    "node-gyp": "^3.6.1",
+    "sweetalert": "^2.0.8"
   },
   "devDependencies": {
     "jquery": "^3.2.1"
