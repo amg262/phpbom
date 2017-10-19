@@ -17,17 +17,17 @@ const mkdirp = require('mkdirp');
 
 var paths = {
     assets: "assets/",
-    home: "wc-bom.php",
-    lib_js: "assets/lib/scripts/",
-    lib_css: "assets/lib/styles/",
-    lib_img: "assets/lib/images/*",
-    dist: "assets/dist/",
+    home: "phpbom.php",
+    lib_js: "assets/scripts/",
+    lib_css: "assets/styles/",
+    lib_img: "assets/images/*",
+    dist: "dist/",
     logs: "logs/",
     data: "assets/data/",
     archive: "assets/archive/",
-    dist_js: "assets/dist/scripts/",
-    dist_css: "assets/dist/styles/",
-    dist_img: "assets/dist/images/",
+    dist_js: "dist/scripts/",
+    dist_css: "dist/styles/",
+    dist_img: "dist/images/",
     includes: "includes/",
     classes: "classes/"
 };
@@ -113,7 +113,7 @@ gulp.task("watch", function () {
     gulp.watch(paths.includes).on("add", browserSync.reload);
 });
 
-gulp.task("default", ["purge", "imagemin", "cssnano", "uglify", "serve", "watch"]);
-gulp.task("clean", ["purge", "imagemin", "cssnano", "uglify", "zip"]);
+gulp.task("up", ["purge", "imagemin", "cssnano", "uglify", "serve", "watch"]);
+gulp.task("default", ["purge", "imagemin", "cssnano", "uglify", "zip"]);
 gulp.task("live", ["serve", "watch"]);
 

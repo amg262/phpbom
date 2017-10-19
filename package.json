@@ -9,7 +9,7 @@
     "build": "gulp build",
     "clean": "gulp clean",
     "watch": "gulp serve",
-    "postinstall": "gulp clean"
+    "postinstall": "composer install"
   },
   "repository": {
     "type": "git",
@@ -29,6 +29,7 @@
   },
   "homepage": "https://amg262@bitbucket.org/amg262/wc-bom.git",
   "dependencies": {
+    "bootstrap": "^3.3.7",
     "browser-sync": "^2.18.8",
     "del": "^2.2.2",
     "gulp": "^3.9.1",
@@ -44,8 +45,9 @@
     "gulp-util": "^3.0.8",
     "gulp-watch": "^4.3.11",
     "gulp-zip": "^4.0.0",
-    "node-gyp": "^3.6.1",
-    "wpapi": "^1.0.2"
+    "node-gyp": "^3.6.1"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "jquery": "^3.2.1"
+  }
 }
